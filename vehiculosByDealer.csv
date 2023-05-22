@@ -1,0 +1,27 @@
+id,marca,modelo,concecionario,id_usuario
+6,Toyota,Corolla,1,6
+19,Kia,Sportage,1,19
+7,Toyota,Corolla,1,7
+21,Volvo,XC90,1,21
+13,Mercedes-Benz,C-Class,1,13
+23,Ferrari,458 Italia,1,23
+11,Volkswagen,Golf,1,
+25,Porsche,911,1,25
+15,Nissan,Sentra,1,15
+27,Land Rover,Range Rover,1,27
+9,Ford,Mustang,1,9
+29,Chrysler,300,1,29
+17,Mazda,CX-5,1,17
+30,Maserati,Quattroporte,2,30
+8,Honda,Civic,2,8
+10,Chevrolet,Camaro,2,10
+12,BMW,X5,2,12
+14,Audi,A4,2,14
+16,Hyundai,Elantra,2,16
+18,Subaru,Impreza,2,18
+20,Lexus,RX,2,20
+22,Tesla,Model 3,2,22
+24,Lamborghini,Huracán,2,24
+26,Jaguar,F-Type,2,26
+28,Jeep,Wrangler,2,28
+1,Toyota,Corolla Cross,24,

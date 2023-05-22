@@ -1,0 +1,27 @@
+id,marca,modelo,concecionario
+6,Toyota,Corolla,1
+7,Toyota,Corolla,1
+8,Honda,Civic,2
+9,Ford,Mustang,1
+10,Chevrolet,Camaro,2
+11,Volkswagen,Golf,1
+12,BMW,X5,2
+13,Mercedes-Benz,C-Class,1
+14,Audi,A4,2
+15,Nissan,Sentra,1
+16,Hyundai,Elantra,2
+17,Mazda,CX-5,1
+18,Subaru,Impreza,2
+19,Kia,Sportage,1
+20,Lexus,RX,2
+21,Volvo,XC90,1
+22,Tesla,Model 3,2
+23,Ferrari,458 Italia,1
+24,Lamborghini,Huracán,2
+25,Porsche,911,1
+26,Jaguar,F-Type,2
+27,Land Rover,Range Rover,1
+28,Jeep,Wrangler,2
+29,Chrysler,300,1
+30,Maserati,Quattroporte,2
+1,Toyota,Corolla Cross,24
