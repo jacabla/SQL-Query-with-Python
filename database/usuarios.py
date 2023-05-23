@@ -16,7 +16,7 @@ except Exception as err:
     exit(1)
 
 
-# create table usuarios
+# # create table usuarios
 # try:
 #     cursor.execute('create table usuarios (id_usuario SERIAL PRIMARY KEY, nombre varchar(30) not null, apellido varchar(30) not null, edad smallint not null);')
 #     conexion.commit()
@@ -41,7 +41,7 @@ except Exception as err:
 
 
 # # query database:
-# # select all users from database
+# select all users from database
 # try:
 #     cursor.execute('select * from usuarios')
 #     consulta = cursor.fetchall()
@@ -118,19 +118,19 @@ except Exception as err:
 #     print(consulta)
 
 
-# # export all usuarios to CSV report
-# try:
-#     cursor.execute('select * from usuarios')
-#     consulta = cursor.fetchall()
-#     csv_file = "usuarios.csv"
-#     with open(csv_file, mode='w', newline='') as file:
-#         writer = csv.writer(file)
-#         writer.writerow(['id_usuario', 'nombre', 'apellido', 'edad'])
-#         for usuario in consulta:
-#             writer.writerow(usuario)
-#         print("datos exportados a CSV exitosamente")
-# except Exception as err: 
-#     print("No se pudo consultar", err)
+# export all usuarios to CSV report
+try:
+    cursor.execute('select * from usuarios')
+    consulta = cursor.fetchall()
+    csv_file = "usuarios.csv"
+    with open(csv_file, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['id_usuario', 'nombre', 'apellido', 'edad'])
+        for usuario in consulta:
+            writer.writerow(usuario)
+        print("datos exportados a CSV exitosamente")
+except Exception as err: 
+    print("No se pudo consultar", err)
 
 cursor.close()
 conexion.close()
